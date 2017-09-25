@@ -30,6 +30,6 @@ export class AppComponent implements OnInit{
 	}
 	ngOnInit(){
 		this.getRooms();
-		// this.getMsg();
+		this.getMsg();
 	}
 }
